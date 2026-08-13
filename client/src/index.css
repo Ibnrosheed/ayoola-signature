@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-gold-primary: #C5A059;
+    --color-gold-light: #E5D0A1;
+    --color-gold-dark: #9A7B38;
+    --color-royal-navy: #0F172A;
+    --color-royal-blue-subtle: #1E293B;
+    --color-emerald-accent: #064E3B;
+    --color-bg-light: #FAF9F5;
+    --color-card-light: #FFFFFF;
+  }
+
+  body {
+    background-color: #FAF9F5;
+    color: #0F172A;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: 'Cormorant Garamond', serif;
+  }
+}
+
+/* Professional Luxury Color Classes */
+.text-gold-primary {
+  color: #C5A059;
+}
+
+.bg-gold-primary {
+  background-color: #C5A059;
+}
+
+.border-gold-subtle {
+  border-color: rgba(197, 160, 89, 0.25);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #1E293B 0%, #C5A059 50%, #9A7B38 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-button-bg {
+  background: linear-gradient(135deg, #C5A059 0%, #B38F48 100%);
+  color: #FFFFFF;
+}
+
+.gold-button-bg:hover {
+  background: linear-gradient(135deg, #D4B06A 0%, #C5A059 100%);
+}
+
+.navy-card {
+  background-color: #FFFFFF;
+  border: 1px solid rgba(226, 232, 240, 0.8);
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.05);
+}
+
+.glass-header {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(197, 160, 89, 0.2);
+}
